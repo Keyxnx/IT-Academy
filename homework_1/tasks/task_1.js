@@ -1,6 +1,6 @@
 function amountOfDye(length, width, height) {
-    const P = 2 * (length + width);
-    const S = P * height;
-    return Math.ceil(S / 16);
+    const perimeter = 2 * (length + width);
+    const squareOfWalls = perimeter * height;
+    return Math.ceil(squareOfWalls / 16);
   }
   
