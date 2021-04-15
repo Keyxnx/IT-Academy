@@ -1,4 +1,4 @@
-function profitable(price_1, price_2, price_3, weight_1, weight_2, weight_3) {
+function calcMaxProfit(price_1, price_2, price_3, weight_1, weight_2, weight_3) {
   let result = 0;
   const price = [price_1, price_2, price_3];
   const buckets = [weight_1, weight_2, weight_3];
