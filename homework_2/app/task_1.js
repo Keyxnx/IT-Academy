@@ -1,5 +1,3 @@
 function sumMin(array) {
-    return array.reduce((acc, el) => {
-        return acc += Math.min(...el);
-    }, 0)
+    return array.reduce((acc, el) => acc += Math.min(...el), 0)
 }
