@@ -17,4 +17,5 @@ function checkFreeChairs(array, amountOfChairs) {
         return result;
       }
     }
+    return 'Not Enough';
 }
