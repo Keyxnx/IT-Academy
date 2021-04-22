@@ -32,3 +32,5 @@ function ticTacToe(input) {
 
     return (a === 0 || b === 0 || c === 0) ? gameStates.GAME_IS_NOT_FINISHED : gameStates.GAME_DRAW;
 }
+
+console.log(ticTacToe(arr))
