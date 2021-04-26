@@ -22,9 +22,9 @@ function convert(string) {
           } else if (counterZeros > 1){
             result[index] += 0;
           }
-        }else {
-          result[2] = string[i];
-          index++;
+        } else {
+            result[2] = string[i];
+            index++;
         }
       } 
     }
@@ -67,3 +67,5 @@ function convert(string) {
     }
     return reverseConvert(result.toString());
   }
+
+  console.log(convert("@~@@*@@"))

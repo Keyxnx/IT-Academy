@@ -16,9 +16,9 @@ class Hex {
 
     toJSON() {
         if (this.obj) {
-            return '0x' + eval(this.decimal + this.sign + this.obj.decimal).toString(16).toUpperCase();           
+            return '0x' + (this.decimal + (this.sign === '+' ? this.obj.decimal : -this.obj.decimal)).toString(16).toUpperCase();           
         } else {
-            return 'Error';
+            return '0x' + this.decimal.toString(16).toUpperCase();
         }
     }
 
@@ -39,5 +39,7 @@ class Hex {
     }
 }
 
+const a = new Hex(10);
 
+console.log(a.toJSON())
 
