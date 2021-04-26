@@ -24,9 +24,6 @@ class Fighter {
     }
 }
 
-const valera = new Fighter('Valera', 26, 3);
-const kerich = new Fighter('Kerich', 23, 2);
-
 function declareWinner(_1st, _2nd, name) {
     if (name.toLowerCase() !== _1st.name.toLowerCase()) {
         [_1st, _2nd] = [_2nd, _1st];
