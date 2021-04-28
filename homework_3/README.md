@@ -1,1 +1,0 @@
-## __Hi, this is my homework #3 :)__
